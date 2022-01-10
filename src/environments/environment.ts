@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
 
-  WS_PATH: "http://localhost:8080/Practica03EJB-JPA-JSF/rest/cliente/addCliente",
-  WS_PATHDEL: "http://localhost:8080/Practica03EJB-JPA-JSF/rest/cliente/deleteCliente/"
+  WS_PATH: "http://10.98.2.145:8080/Practica03EJB-JPA-JSF/rest/cliente/addCliente",
+  WS_PATHDEL: "http://10.98.2.145:8080/Practica03EJB-JPA-JSF/rest/cliente/deleteCliente/"
 };
 
 /*

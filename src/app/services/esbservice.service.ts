@@ -18,11 +18,11 @@ export class serviceVenta {
     return this.http.post(environment.WS_PATH, body, config)
  }
   editPerson(param: any): any  {
-    let url = "http://localhost:8080/Practica03EJB-JPA-JSF/rest/cliente/validarCliente/"+ param
+    let url = "http://10.98.2.145:8080/Practica03EJB-JPA-JSF/rest/cliente/validarCliente/"+ param
     return this.http.get(url)
   }
   listPerson():any{
-    let url = "http://localhost:8080/Practica03EJB-JPA-JSF/rest/cliente/listarClientes/"
+    let url = "http://10.98.2.145:8080/Practica03EJB-JPA-JSF/rest/cliente/listarClientes/"
     return this.http.get(url)
 
   }
